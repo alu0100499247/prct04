@@ -48,23 +48,44 @@ class Matrices
 		end
 		d
 	end
+
+	def mostrar(a)
+		cad = String.new
+		for i in (0...a.length)
+			cad << "["
+			for j in (0...a[0].length)
+				cad << " #{a[i][j]} "
+			end
+			cad << "]"
+			cad << "\n"
+		end
+		cad
+	end
 end
 
 if __FILE__ == $0
 	mx = Matrices.new
 
 	a, b = mx.read_matrices('datos.dat')
+
+	puts mx.mostrar(a)
+	puts ""
+	puts mx.mostrar(b)
 	
-	puts "El producto es: \n"
+	puts "El producto es: "
+	puts ""
 	if a[0].length == b.length	# Producto
-		puts mx.producto(a,b)	
+		puts mx.mostrar(mx.producto(a,b))	
 	else
 		puts "Imposible hallar el producto de estas dos matrices! :("
 	end
+
 	puts ""
-	puts "La suma es: \n"
+
+	puts "La suma es: "
+	puts ""
 	if a[0].length == b.length	# Suma
-		puts mx.suma(a,b)	
+		puts mx.mostrar(mx.suma(a,b))	
 	else
 		puts "Imposible hallar la suma de estas dos matrices! :("
 	end
