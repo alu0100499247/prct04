@@ -72,7 +72,8 @@ if __FILE__ == $0
 	puts ""
 	puts mx.mostrar(b)
 	
-	puts "El producto es: \n"
+	puts "El producto es: "
+	puts ""
 	if a[0].length == b.length	# Producto
 		puts mx.mostrar(mx.producto(a,b))	
 	else
@@ -81,7 +82,8 @@ if __FILE__ == $0
 
 	puts ""
 
-	puts "La suma es: \n"
+	puts "La suma es: "
+	puts ""
 	if a[0].length == b.length	# Suma
 		puts mx.mostrar(mx.suma(a,b))	
 	else
