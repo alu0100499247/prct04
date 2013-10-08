@@ -55,14 +55,14 @@ if __FILE__ == $0
 
 	a, b = mx.read_matrices('datos.dat')
 	
-	puts "El producto es: "
+	puts "El producto es: \n"
 	if a[0].length == b.length	# Producto
 		puts mx.producto(a,b)	
 	else
 		puts "Imposible hallar el producto de estas dos matrices! :("
 	end
 	puts ""
-	puts "La suma es: "
+	puts "La suma es: \n"
 	if a[0].length == b.length	# Suma
 		puts mx.suma(a,b)	
 	else
