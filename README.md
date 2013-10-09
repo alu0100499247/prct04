@@ -8,7 +8,7 @@ Suma y multiplicación de matrices
 
 Nuestro código se encuentra en el archivo `prct04.rb`, en él definimos todos los métodos necesarios para leer, mostrar, sumar y multiplicar las matrices.
 
-En el fichero `datos.dat` se encuentran las matrices con las que vamos a operar. Es necesario que sean cuadradas, pero pueden tener cualquier dimensión. El formato establecido para el fichero de datos es el siguiente:
+En el fichero `datos.dat` se encuentran las matrices con las que vamos a operar. Es necesario que sean cuadradas, pero pueden tener cualquier dimensión **(NxN)**. El formato establecido para el fichero de datos es el siguiente:
 
 * Las columnas están separadas por un espacio en blanco.
 * Las filas están separadas por un retorno de carro.
