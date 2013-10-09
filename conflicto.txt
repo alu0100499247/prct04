@@ -1,9 +1,13 @@
 Conflictos en GitHub:
 
-A la hora de mezclar el trabajo de las dos ramas que creamos(cristhian y fran), con el trabajo inicial en la rama master, nos saltaron algunos mensajes de error.
+A la hora de mezclar el trabajo de las dos ramas que creamos(cristhian y fran), con el trabajo inicial 
+en la rama master, nos saltaron algunos mensajes de error.
 
-Esto era debido a que en ambas ramas modificamos el mismo documento. Por lo tanto a la hora de hacer un git merge, Git nos devolvía un error y detenía la mezcla hasta que solucionaramos manualmente el conflicto.
+Esto era debido a que en ambas ramas modificamos el mismo documento. Por lo tanto a la hora de hacer un 
+git merge, Git nos devolvía un error y detenía la mezcla hasta que solucionaramos manualmente el conflicto.
 
-Para ello tuvimos que ir al fichero en cuestión y editarlo. Previamente git había insertado unas líneas especiales de código en donde se nos indicaba el motivo del conflicto. En ese momento sólo tuvimos que elegir la parte del código que queríamos conservar y borrar la otra.
+Para ello tuvimos que ir al fichero en cuestión y editarlo. Previamente git había insertado unas líneas
+especiales de código en donde se nos indicaba el motivo del conflicto. En ese momento sólo tuvimos que 
+elegir la parte del código que queríamos conservar y borrar la otra.
 
 A continuación continuamos con la mezcla y en este caso no hubo problema alguno.
